@@ -57,13 +57,13 @@ public static Tile createTile(int mapIcon) {
             tile.isSolid = true;
             break;
             
-            case 76:
+        case 76:
                 tile = new Tile("grassHillLeft2.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);
                 tile.isSolid = true;
                 break;
           
                 
-            case 19:
+        case 19:
                 tile = new Tile("castleCenter.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);
                 tile.isSolid = true;
                 
@@ -92,8 +92,6 @@ public static Tile createTile(int mapIcon) {
                 tile = new Tile("window.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);
                 
                 break;
-                
-           
                 
             case 67:
                 tile = new Tile("grassCliffLeft.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);

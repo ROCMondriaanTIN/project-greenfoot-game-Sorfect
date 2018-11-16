@@ -39,14 +39,17 @@ public class Hero extends Mover {
     }
 
     public void handleInput() {
-        if (Greenfoot.isKeyDown("w")) {
-            velocityY = -10;
+        if (Greenfoot.isKeyDown("w") && (onGround() == true)
+        || Greenfoot.isKeyDown("up") && (onGround() == true)
+        || Greenfoot.isKeyDown("space") && (onGround() == true)) {
+            velocityY = -15;
         }
 
-        if (Greenfoot.isKeyDown("a")) {
-            velocityX = -2;
-        } else if (Greenfoot.isKeyDown("d")) {
-            velocityX = 2;
+        if (Greenfoot.isKeyDown("a") || Greenfoot.isKeyDown("left"))
+        {
+            velocityX = -5;
+        } else if (Greenfoot.isKeyDown("d") || Greenfoot.isKeyDown("right")) {
+            velocityX = 5;
         }
     }
 
@@ -56,5 +59,10 @@ public class Hero extends Mover {
 
     public int getHeight() {
         return getImage().getHeight();
+    }
+    boolean onGround()
+   {
+       Actor under = getOneObjectAtOffset(0,getImage().getHeight()/2, Tile.class);
+       return under != null;
     }
 }
