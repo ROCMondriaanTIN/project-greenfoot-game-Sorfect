@@ -1,522 +1,522 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="70" tileheight="70" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="70" tileheight="70" infinite="0" nextlayerid="2" nextobjectid="1">
  <tileset firstgid="1" name="tilset" tilewidth="70" tileheight="146" tilecount="172" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/box.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/box.png"/>
   </tile>
   <tile id="1">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxAlt.png"/>
   </tile>
   <tile id="2">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxCoin.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxCoin.png"/>
   </tile>
   <tile id="3">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxCoin_disabled.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxCoin_disabled.png"/>
   </tile>
   <tile id="4">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxCoinAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxCoinAlt.png"/>
   </tile>
   <tile id="5">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxCoinAlt_disabled.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxCoinAlt_disabled.png"/>
   </tile>
   <tile id="6">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxEmpty.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxEmpty.png"/>
   </tile>
   <tile id="7">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxExplosive.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxExplosive.png"/>
   </tile>
   <tile id="8">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxExplosive_disabled.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxExplosive_disabled.png"/>
   </tile>
   <tile id="9">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxExplosiveAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxExplosiveAlt.png"/>
   </tile>
   <tile id="10">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxItem.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxItem.png"/>
   </tile>
   <tile id="11">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxItem_disabled.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxItem_disabled.png"/>
   </tile>
   <tile id="12">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxItemAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxItemAlt.png"/>
   </tile>
   <tile id="13">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxItemAlt_disabled.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxItemAlt_disabled.png"/>
   </tile>
   <tile id="14">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/boxWarning.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/boxWarning.png"/>
   </tile>
   <tile id="15">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/brickWall.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/brickWall.png"/>
   </tile>
   <tile id="16">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/bridge.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/bridge.png"/>
   </tile>
   <tile id="17">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/bridgeLogs.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/bridgeLogs.png"/>
   </tile>
   <tile id="18">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castle.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castle.png"/>
   </tile>
   <tile id="19">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleCenter.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleCenter.png"/>
   </tile>
   <tile id="20">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleCenter_rounded.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleCenter_rounded.png"/>
   </tile>
   <tile id="21">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleCliffLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleCliffLeft.png"/>
   </tile>
   <tile id="22">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleCliffLeftAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleCliffLeftAlt.png"/>
   </tile>
   <tile id="23">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleCliffRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleCliffRight.png"/>
   </tile>
   <tile id="24">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleCliffRightAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleCliffRightAlt.png"/>
   </tile>
   <tile id="25">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleHalf.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleHalf.png"/>
   </tile>
   <tile id="26">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleHalfLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleHalfLeft.png"/>
   </tile>
   <tile id="27">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleHalfMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleHalfMid.png"/>
   </tile>
   <tile id="28">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleHalfRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleHalfRight.png"/>
   </tile>
   <tile id="29">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleHillLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleHillLeft.png"/>
   </tile>
   <tile id="30">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleHillLeft2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleHillLeft2.png"/>
   </tile>
   <tile id="31">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleHillRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleHillRight.png"/>
   </tile>
   <tile id="32">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleHillRight2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleHillRight2.png"/>
   </tile>
   <tile id="33">
-   <image width="5" height="22" source="project-greenfoot-game-Sorfect/Tiles/castleLedgeLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleLedgeLeft.png"/>
   </tile>
   <tile id="34">
-   <image width="5" height="22" source="project-greenfoot-game-Sorfect/Tiles/castleLedgeRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleLedgeRight.png"/>
   </tile>
   <tile id="35">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleLeft.png"/>
   </tile>
   <tile id="36">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleMid.png"/>
   </tile>
   <tile id="37">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/castleRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/castleRight.png"/>
   </tile>
   <tile id="38">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirt.png"/>
   </tile>
   <tile id="39">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtCenter.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtCenter.png"/>
   </tile>
   <tile id="40">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtCenter_rounded.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtCenter_rounded.png"/>
   </tile>
   <tile id="41">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtCliffLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtCliffLeft.png"/>
   </tile>
   <tile id="42">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtCliffLeftAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtCliffLeftAlt.png"/>
   </tile>
   <tile id="43">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtCliffRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtCliffRight.png"/>
   </tile>
   <tile id="44">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtCliffRightAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtCliffRightAlt.png"/>
   </tile>
   <tile id="45">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtHalf.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtHalf.png"/>
   </tile>
   <tile id="46">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtHalfLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtHalfLeft.png"/>
   </tile>
   <tile id="47">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtHalfMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtHalfMid.png"/>
   </tile>
   <tile id="48">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtHalfRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtHalfRight.png"/>
   </tile>
   <tile id="49">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtHillLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtHillLeft.png"/>
   </tile>
   <tile id="50">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtHillLeft2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtHillLeft2.png"/>
   </tile>
   <tile id="51">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtHillRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtHillRight.png"/>
   </tile>
   <tile id="52">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtHillRight2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtHillRight2.png"/>
   </tile>
   <tile id="53">
-   <image width="5" height="18" source="project-greenfoot-game-Sorfect/Tiles/dirtLedgeLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtLedgeLeft.png"/>
   </tile>
   <tile id="54">
-   <image width="5" height="18" source="project-greenfoot-game-Sorfect/Tiles/dirtLedgeRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtLedgeRight.png"/>
   </tile>
   <tile id="55">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtLeft.png"/>
   </tile>
   <tile id="56">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtMid.png"/>
   </tile>
   <tile id="57">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/dirtRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/dirtRight.png"/>
   </tile>
   <tile id="58">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/door_closedMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/door_closedMid.png"/>
   </tile>
   <tile id="59">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/door_closedTop.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/door_closedTop.png"/>
   </tile>
   <tile id="60">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/door_openMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/door_openMid.png"/>
   </tile>
   <tile id="61">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/door_openTop.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/door_openTop.png"/>
   </tile>
   <tile id="62">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/fence.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/fence.png"/>
   </tile>
   <tile id="63">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/fenceBroken.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/fenceBroken.png"/>
   </tile>
   <tile id="64">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grass.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grass.png"/>
   </tile>
   <tile id="65">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassCenter.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassCenter.png"/>
   </tile>
   <tile id="66">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassCenter_rounded.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassCenter_rounded.png"/>
   </tile>
   <tile id="67">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassCliffLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassCliffLeft.png"/>
   </tile>
   <tile id="68">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassCliffLeftAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassCliffLeftAlt.png"/>
   </tile>
   <tile id="69">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassCliffRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassCliffRight.png"/>
   </tile>
   <tile id="70">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassCliffRightAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassCliffRightAlt.png"/>
   </tile>
   <tile id="71">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassHalf.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassHalf.png"/>
   </tile>
   <tile id="72">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassHalfLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassHalfLeft.png"/>
   </tile>
   <tile id="73">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassHalfMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassHalfMid.png"/>
   </tile>
   <tile id="74">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassHalfRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassHalfRight.png"/>
   </tile>
   <tile id="75">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassHillLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassHillLeft.png"/>
   </tile>
   <tile id="76">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassHillLeft2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassHillLeft2.png"/>
   </tile>
   <tile id="77">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassHillRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassHillRight.png"/>
   </tile>
   <tile id="78">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassHillRight2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassHillRight2.png"/>
   </tile>
   <tile id="79">
-   <image width="5" height="24" source="project-greenfoot-game-Sorfect/Tiles/grassLedgeLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassLedgeLeft.png"/>
   </tile>
   <tile id="80">
-   <image width="5" height="24" source="project-greenfoot-game-Sorfect/Tiles/grassLedgeRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassLedgeRight.png"/>
   </tile>
   <tile id="81">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassLeft.png"/>
   </tile>
   <tile id="82">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassMid.png"/>
   </tile>
   <tile id="83">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/grassRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/grassRight.png"/>
   </tile>
   <tile id="84">
-   <image width="48" height="146" source="project-greenfoot-game-Sorfect/Tiles/hill_large.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/hill_large.png"/>
   </tile>
   <tile id="85">
-   <image width="48" height="146" source="project-greenfoot-game-Sorfect/Tiles/hill_largeAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/hill_largeAlt.png"/>
   </tile>
   <tile id="86">
-   <image width="48" height="106" source="project-greenfoot-game-Sorfect/Tiles/hill_small.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/hill_small.png"/>
   </tile>
   <tile id="87">
-   <image width="48" height="106" source="project-greenfoot-game-Sorfect/Tiles/hill_smallAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/hill_smallAlt.png"/>
   </tile>
   <tile id="88">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/ladder_mid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/ladder_mid.png"/>
   </tile>
   <tile id="89">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/ladder_top.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/ladder_top.png"/>
   </tile>
   <tile id="90">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/liquidLava.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/liquidLava.png"/>
   </tile>
   <tile id="91">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/liquidLavaTop.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/liquidLavaTop.png"/>
   </tile>
   <tile id="92">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/liquidLavaTop_mid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/liquidLavaTop_mid.png"/>
   </tile>
   <tile id="93">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/liquidWater.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/liquidWater.png"/>
   </tile>
   <tile id="94">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/liquidWaterTop.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/liquidWaterTop.png"/>
   </tile>
   <tile id="95">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/liquidWaterTop_mid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/liquidWaterTop_mid.png"/>
   </tile>
   <tile id="96">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/lock_blue.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/lock_blue.png"/>
   </tile>
   <tile id="97">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/lock_green.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/lock_green.png"/>
   </tile>
   <tile id="98">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/lock_red.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/lock_red.png"/>
   </tile>
   <tile id="99">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/lock_yellow.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/lock_yellow.png"/>
   </tile>
   <tile id="100">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/rockHillLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/rockHillLeft.png"/>
   </tile>
   <tile id="101">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/rockHillRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/rockHillRight.png"/>
   </tile>
   <tile id="102">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/ropeAttached.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/ropeAttached.png"/>
   </tile>
   <tile id="103">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/ropeHorizontal.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/ropeHorizontal.png"/>
   </tile>
   <tile id="104">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/ropeVertical.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/ropeVertical.png"/>
   </tile>
   <tile id="105">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sand.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sand.png"/>
   </tile>
   <tile id="106">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandCenter.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandCenter.png"/>
   </tile>
   <tile id="107">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandCenter_rounded.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandCenter_rounded.png"/>
   </tile>
   <tile id="108">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandCliffLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandCliffLeft.png"/>
   </tile>
   <tile id="109">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandCliffLeftAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandCliffLeftAlt.png"/>
   </tile>
   <tile id="110">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandCliffRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandCliffRight.png"/>
   </tile>
   <tile id="111">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandCliffRightAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandCliffRightAlt.png"/>
   </tile>
   <tile id="112">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandHalf.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandHalf.png"/>
   </tile>
   <tile id="113">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandHalfLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandHalfLeft.png"/>
   </tile>
   <tile id="114">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandHalfMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandHalfMid.png"/>
   </tile>
   <tile id="115">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandHalfRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandHalfRight.png"/>
   </tile>
   <tile id="116">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandHillLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandHillLeft.png"/>
   </tile>
   <tile id="117">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandHillLeft2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandHillLeft2.png"/>
   </tile>
   <tile id="118">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandHillRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandHillRight.png"/>
   </tile>
   <tile id="119">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandHillRight2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandHillRight2.png"/>
   </tile>
   <tile id="120">
-   <image width="5" height="18" source="project-greenfoot-game-Sorfect/Tiles/sandLedgeLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandLedgeLeft.png"/>
   </tile>
   <tile id="121">
-   <image width="5" height="18" source="project-greenfoot-game-Sorfect/Tiles/sandLedgeRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandLedgeRight.png"/>
   </tile>
   <tile id="122">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandLeft.png"/>
   </tile>
   <tile id="123">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandMid.png"/>
   </tile>
   <tile id="124">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sandRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sandRight.png"/>
   </tile>
   <tile id="125">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/sign.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/sign.png"/>
   </tile>
   <tile id="126">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/signExit.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/signExit.png"/>
   </tile>
   <tile id="127">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/signLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/signLeft.png"/>
   </tile>
   <tile id="128">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/signRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/signRight.png"/>
   </tile>
   <tile id="129">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snow.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snow.png"/>
   </tile>
   <tile id="130">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowCenter.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowCenter.png"/>
   </tile>
   <tile id="131">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowCenter_rounded.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowCenter_rounded.png"/>
   </tile>
   <tile id="132">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowCliffLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowCliffLeft.png"/>
   </tile>
   <tile id="133">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowCliffLeftAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowCliffLeftAlt.png"/>
   </tile>
   <tile id="134">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowCliffRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowCliffRight.png"/>
   </tile>
   <tile id="135">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowCliffRightAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowCliffRightAlt.png"/>
   </tile>
   <tile id="136">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowHalf.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowHalf.png"/>
   </tile>
   <tile id="137">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowHalfLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowHalfLeft.png"/>
   </tile>
   <tile id="138">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowHalfMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowHalfMid.png"/>
   </tile>
   <tile id="139">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowHalfRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowHalfRight.png"/>
   </tile>
   <tile id="140">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowHillLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowHillLeft.png"/>
   </tile>
   <tile id="141">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowHillLeft2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowHillLeft2.png"/>
   </tile>
   <tile id="142">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowHillRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowHillRight.png"/>
   </tile>
   <tile id="143">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowHillRight2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowHillRight2.png"/>
   </tile>
   <tile id="144">
-   <image width="5" height="18" source="project-greenfoot-game-Sorfect/Tiles/snowLedgeLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowLedgeLeft.png"/>
   </tile>
   <tile id="145">
-   <image width="5" height="18" source="project-greenfoot-game-Sorfect/Tiles/snowLedgeRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowLedgeRight.png"/>
   </tile>
   <tile id="146">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowLeft.png"/>
   </tile>
   <tile id="147">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowMid.png"/>
   </tile>
   <tile id="148">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/snowRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/snowRight.png"/>
   </tile>
   <tile id="149">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stone.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stone.png"/>
   </tile>
   <tile id="150">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneCenter.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneCenter.png"/>
   </tile>
   <tile id="151">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneCenter_rounded.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneCenter_rounded.png"/>
   </tile>
   <tile id="152">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneCliffLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneCliffLeft.png"/>
   </tile>
   <tile id="153">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneCliffLeftAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneCliffLeftAlt.png"/>
   </tile>
   <tile id="154">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneCliffRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneCliffRight.png"/>
   </tile>
   <tile id="155">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneCliffRightAlt.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneCliffRightAlt.png"/>
   </tile>
   <tile id="156">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneHalf.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneHalf.png"/>
   </tile>
   <tile id="157">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneHalfLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneHalfLeft.png"/>
   </tile>
   <tile id="158">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneHalfMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneHalfMid.png"/>
   </tile>
   <tile id="159">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneHalfRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneHalfRight.png"/>
   </tile>
   <tile id="160">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneHillLeft2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneHillLeft2.png"/>
   </tile>
   <tile id="161">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneHillRight2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneHillRight2.png"/>
   </tile>
   <tile id="162">
-   <image width="5" height="24" source="project-greenfoot-game-Sorfect/Tiles/stoneLedgeLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneLedgeLeft.png"/>
   </tile>
   <tile id="163">
-   <image width="5" height="24" source="project-greenfoot-game-Sorfect/Tiles/stoneLedgeRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneLedgeRight.png"/>
   </tile>
   <tile id="164">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneLeft.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneLeft.png"/>
   </tile>
   <tile id="165">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneMid.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneMid.png"/>
   </tile>
   <tile id="166">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneRight.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneRight.png"/>
   </tile>
   <tile id="167">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/stoneWall.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/stoneWall.png"/>
   </tile>
   <tile id="168">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/tochLit.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/tochLit.png"/>
   </tile>
   <tile id="169">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/tochLit2.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/tochLit2.png"/>
   </tile>
   <tile id="170">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/torch.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/torch.png"/>
   </tile>
   <tile id="171">
-   <image width="70" height="70" source="project-greenfoot-game-Sorfect/Tiles/window.png"/>
+   <image source="project-greenfoot-game-Sorfect/Tiles/window.png"/>
   </tile>
  </tileset>
  <tileset firstgid="173" name="spel chapter 2" tilewidth="1" tileheight="1" tilecount="0" columns="0"/>
