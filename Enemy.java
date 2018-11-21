@@ -28,19 +28,18 @@ public class Enemy extends Mover {
         int y = getY();
 
         if (firstAct) {
-            firstAct = false;
-            xMin = x - walkRange / 2;
-            xMax = x + walkRange / 2;
+            firstAct = true;
+            xMin = x - walkRange / -60;
         }
 
         velocityX = speed;
         applyVelocity();
         if (getX() >= xMax) {
-            speed *= -1;
+            speed *= -2;
             x = xMax;
             getImage().mirrorHorizontally();
         } else if (getX() <= xMin) {
-            speed *= -1;
+            speed *= -2;
             x = xMin;
             getImage().mirrorHorizontally();
         }

@@ -10,13 +10,15 @@ public class Hero extends Mover {
     private final double gravity;
     private final double acc;
     private final double drag;
-
+    protected static int leven = 3;
+    protected static int levelLevens;
     public Hero() {
         super();
         gravity = 9.8;
-        acc = 0.6;
+        acc = 0.8;
         drag = 0.8;
         setImage("p1.png");
+        
     }
 
     @Override
@@ -32,7 +34,7 @@ public class Hero extends Mover {
 
         for (Actor enemy : getIntersectingObjects(Enemy.class)) {
             if (enemy != null) {
-                setLocation(60,750);
+                setLocation(90,900);
                 return;
             }
         }
@@ -42,7 +44,7 @@ public class Hero extends Mover {
         if (Greenfoot.isKeyDown("w") && (onGround() == true)
         || Greenfoot.isKeyDown("up") && (onGround() == true)
         || Greenfoot.isKeyDown("space") && (onGround() == true)) {
-            velocityY = -15;
+            velocityY = -20;
         }
 
         if (Greenfoot.isKeyDown("a") || Greenfoot.isKeyDown("left"))
