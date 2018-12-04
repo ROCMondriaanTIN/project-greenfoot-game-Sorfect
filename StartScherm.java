@@ -18,18 +18,13 @@ public class StartScherm extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1000, 800, 1); 
         Greenfoot.start();
-        prepare();
-    }
-    private void prepare()
-    {
-        Start start = new Start();
-        addObject(start, 500, 400);
+        this.setBackground("StartPage1.png"); 
     }
     public void act()
     {
         if(Greenfoot.isKeyDown("space"))
         {
-            Greenfoot.setWorld(new MyWorld());
+            Greenfoot.setWorld(new LevelSelect());
         }
     }
 }

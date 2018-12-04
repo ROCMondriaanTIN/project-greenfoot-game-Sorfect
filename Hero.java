@@ -10,19 +10,25 @@ public class Hero extends Mover {
     private final double gravity;
     private final double acc;
     private final double drag;
-    protected static int leven = 3;
-    protected static int levelLevens;
+    protected static int x;
+    protected static int y;
+    LevenHudExtra levenHud;
+
     public Hero() {
         super();
         gravity = 9.8;
         acc = 0.8;
         drag = 0.8;
         setImage("p1.png");
-        
     }
-
+    
     @Override
     public void act() {
+        if(levenHud== null)
+        {
+            levenHud = new LevenHudExtra();
+            getWorld().addObject(levenHud, 100,100);
+        }
         handleInput();
         
         velocityX *= drag;
@@ -31,12 +37,42 @@ public class Hero extends Mover {
             velocityY = gravity;
         }
         applyVelocity();
-
+        
         for (Actor enemy : getIntersectingObjects(Enemy.class)) {
             if (enemy != null) {
-                setLocation(90,900);
+                levenHud.verliesLeven();
+                setLocation(x,y);
                 return;
             }
+        }
+         for (Actor Fly : getIntersectingObjects(Fly.class)) {
+            if (Fly != null) {
+                levenHud.verliesLeven();
+                setLocation(x,y);
+                return;
+            }
+        }
+         for (Actor Gevaar : getIntersectingObjects(Gevaar.class)){
+            if (Gevaar != null) {
+                levenHud.verliesLeven();
+                setLocation(x,y);
+                return;
+            }
+        }
+        for (Actor exit : getIntersectingObjects(Exit.class)) {
+            if (exit != null) {
+                Greenfoot.setWorld(new LevelSelect());
+                return;
+            }
+        }
+    }
+     
+    public void levens()
+    {
+        Actor l = getOneIntersectingObject(Leven.class);
+        if( l != null)
+        {
+            
         }
     }
 
@@ -44,7 +80,7 @@ public class Hero extends Mover {
         if (Greenfoot.isKeyDown("w") && (onGround() == true)
         || Greenfoot.isKeyDown("up") && (onGround() == true)
         || Greenfoot.isKeyDown("space") && (onGround() == true)) {
-            velocityY = -20;
+            velocityY = -22;
         }
 
         if (Greenfoot.isKeyDown("a") || Greenfoot.isKeyDown("left"))

@@ -1,21 +1,21 @@
-
-import greenfoot.*;
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- *
- * @author R. Springer
+ * Write a description of class Fly here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
  */
-public class Enemy extends Mover {
-
-    private int walkRange;
+public class Fly extends Mover
+{  private int walkRange;
     private int xMin;
     private int xMax;
     private boolean firstAct;
     private int speed;
 
-    public Enemy() {
+    public Fly() {
         super();
-        setImage("pokerMad.png");
+     
         getImage().mirrorHorizontally();
         walkRange = 400;
         firstAct = true;
