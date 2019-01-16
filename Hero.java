@@ -60,7 +60,8 @@ public class Hero extends Mover {
         if(levenHud== null)
         {
             levenHud = new LevenHudExtra();
-            getWorld().addObject(levenHud, 100,100);
+            getWorld().addObject(levenHud, 70,100);
+            
         }
         handleInput();
         

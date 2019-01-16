@@ -51,6 +51,7 @@ public class Level2 extends World
         // Declareren en initialiseren van een main karakter van het spel mijne heet Hero. Deze klasse 
         // moet de klasse Mover extenden voor de camera om te werken
         Hero hero = new Hero();
+        Vijand2 vijand = new Vijand2(72, 97);
         
         // voeg levens toe
       
@@ -60,8 +61,9 @@ public class Level2 extends World
 
         // Alle objecten toevoegen aan de wereld: camera, main karakter en mogelijke enemies
         addObject(camera, 0, 0);
-        addObject(hero, 60, 750);
-        addObject(new Enemy(), 1220, 850);
+        addObject(hero, 120, 354);
+        addObject(vijand, 120, 750);
+        
         
        
  
@@ -70,6 +72,7 @@ public class Level2 extends World
         ce = new CollisionEngine(te, camera);
         // Toevoegen van de mover instantie of een extentie hiervan
         ce.addCollidingMover(hero);
+        ce.addCollidingMover(vijand);
     }
         
     @Override

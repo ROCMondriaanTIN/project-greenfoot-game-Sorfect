@@ -272,12 +272,10 @@ public static Tile createTile(int mapIcon) {
                 
         case 168:
                 tile = new Tile("tochLit.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);
-                tile.isSolid = true;
                 break;
                 
         case 169:
                 tile = new Tile("tochLit2.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);
-                tile.isSolid = true;
                 break;
                 
         case 171:
@@ -286,7 +284,7 @@ public static Tile createTile(int mapIcon) {
                 
         case 172:
                 tile = new Tile("Barier.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);
-                
+                tile.isSolid = true;
                 break;
                 
             default:
