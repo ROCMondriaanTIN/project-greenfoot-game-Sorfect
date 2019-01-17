@@ -53,7 +53,7 @@ public class Level4 extends World
         // Declareren en initialiseren van een main karakter van het spel mijne heet Hero. Deze klasse 
         // moet de klasse Mover extenden voor de camera om te werken
         Hero hero = new Hero();
-        Vijand4 vijand = new Vijand4(72, 97);
+        Vijand vijand = new Vijand(72, 97);
 
         // voeg levens toe
     

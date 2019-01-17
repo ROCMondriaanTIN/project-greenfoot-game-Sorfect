@@ -1,4 +1,4 @@
-import greenfoot.*;
+ import greenfoot.*;
 
 /**
  *
@@ -61,7 +61,6 @@ public class Vijand extends Mover {
         if (velocityY > gravity) {
             velocityY = gravity;
         }
-      
         loop();
         velocityX = speed;
         applyVelocity();

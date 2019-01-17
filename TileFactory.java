@@ -287,6 +287,10 @@ public static Tile createTile(int mapIcon) {
                 tile.isSolid = true;
                 break;
                 
+        case 173:
+                tile = new Tile("Barier.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);
+                break;
+                
             default:
                 tile = new Tile("grassMid.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);
                 tile.isSolid = true;
