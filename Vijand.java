@@ -15,8 +15,8 @@ public class Vijand extends Mover {
     private final double acc;
     private final double drag;
     private static boolean onPlatform = false;
-    public static int Vijand_width;
-    public static int Vijand_Height;
+    private CollisionEngine collisionEngine;
+    private TileEngine tileEngine;
     
     //Lopen
     private GreenfootImage run1 = new GreenfootImage("p2_walk01.png");
@@ -32,7 +32,7 @@ public class Vijand extends Mover {
     private GreenfootImage run11 = new GreenfootImage("p2_walk11.png"); 
 
     private int frame = 1;
-    public Vijand(int width, int height) {
+    public Vijand(CollisionEngine collisionEngine, TileEngine tileEngine) {
         super();
         setImage("p2_jump.png");
         gravity = 9.8;
@@ -40,10 +40,9 @@ public class Vijand extends Mover {
         drag = 0.8;
         walkRange = 20;
         firstAct = true;
-         this.Vijand_width = width;
-        this.Vijand_Height = height;
-        getImage().scale(width, height);
         speed = 5;
+        this.collisionEngine = collisionEngine;
+        this.tileEngine = tileEngine;
     }
 
     @Override
@@ -64,95 +63,65 @@ public class Vijand extends Mover {
         loop();
         velocityX = speed;
         applyVelocity();
-        Jump1();
-        
+            for (Actor Spring : getIntersectingObjects(Spring.class)) {
+            if (Spring != null) {
+                
+                    velocityY = -27;
+            }
+        }
+        for (Actor exit : getIntersectingObjects(Exit.class)) {
+            if (exit != null) {
+                getWorld().removeObject(this);
+                return;
+            }
+        }
        
-    }
-    
-      
-        
-    public void Jump1()
-        {
-            if(getX() >= 322 && getX() <= 325 || 
-        getX() >= 498 && getX() <= 502 || 
-        getX() >= 2611 && getX() <= 2617 || getX() >= 2967 && getX() <= 2971 ||
-        getX() >= 4308 && getX() <= 4312 || getX() >= 4656 && getX() <= 4660 ||
-        getX() >= 4929 && getX() <= 4933 || getX() >= 5346 && getX() <= 5350
-        ){
-            setImage("p2_jump.png"); 
-            velocityY = -18;
-            
-            
-            
-
-        }
-         if(getX() >= 1158 && getX() <= 1162 
-        ){
-            setImage("p2_jump.png"); 
-            velocityY = -20;
-            
-            
-            
-
-        }
-        
     }
         public void loop()
     {
         if (frame == 1)
         {
             setImage(run1);
-            getImage().scale(Vijand_width, Vijand_Height);
         }
         else if (frame == 2)
         {
             setImage(run2);
-            getImage().scale(Vijand_width, Vijand_Height);
         }
         else if (frame == 3)
         {
             setImage(run3);
-            getImage().scale(Vijand_width, Vijand_Height);
         }
         else if (frame == 4)
         {
             setImage(run4);
-            getImage().scale(Vijand_width, Vijand_Height);
         }
         else if (frame == 5)
         {
             setImage(run5);
-            getImage().scale(Vijand_width, Vijand_Height);
         }
         else if (frame == 6)
         {
             setImage(run6);
-            getImage().scale(Vijand_width, Vijand_Height);
         }
         else if (frame == 7)
         {
             setImage(run7);
-            getImage().scale(Vijand_width, Vijand_Height);
         }
         else if (frame == 8)
         {
             setImage(run8);
-            getImage().scale(Vijand_width, Vijand_Height);
         }
         else if (frame == 9)
         {
             setImage(run9);
-            getImage().scale(Vijand_width, Vijand_Height);
         }
         else if (frame == 10)
         {
             setImage(run10);
-            getImage().scale(Vijand_width, Vijand_Height);
         }
         else if (frame == 11)
         {
             setImage(run11);
-            getImage().scale(Vijand_width, Vijand_Height);
             frame=0;
         }
         frame++;

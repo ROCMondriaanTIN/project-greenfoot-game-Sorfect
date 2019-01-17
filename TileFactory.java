@@ -288,7 +288,7 @@ public static Tile createTile(int mapIcon) {
                 break;
                 
         case 173:
-                tile = new Tile("Barier.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);
+                 tile = new Spring("Barier.png", TileEngine.TILE_WIDTH, TileEngine.TILE_HEIGHT);
                 break;
                 
             default:
