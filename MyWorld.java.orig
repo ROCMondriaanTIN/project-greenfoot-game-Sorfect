@@ -6,7 +6,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World {
     private CollisionEngine ce;
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 4372fff5ea53a9c16ee13c8083969eac7aeee2f9
     /**
      * Constructor for objects of class MyWorld.
      *
@@ -61,14 +65,19 @@ public class MyWorld extends World {
 
         // Alle objecten toevoegen aan de wereld: camera, main karakter en mogelijke enemies
         addObject(camera, 0, 0);
+<<<<<<< HEAD
         addObject(hero, 120, 750);
         addObject(new Vlag(), 120, 750);
         addObject(vijand, 120, 750);
        
-
+=======
+        addObject(hero, 300, 200);
+        addObject(new Enemy(), 1170, 410);
+        
         // Force act zodat de camera op de juist plek staat.
         camera.act();
         hero.act();
+>>>>>>> 4372fff5ea53a9c16ee13c8083969eac7aeee2f9
 
         // Initialiseren van de CollisionEngine zodat de speler niet door de tile heen kan lopen.
         // De collision engine kijkt alleen naar de tiles die de variabele solid op true hebben staan.
@@ -78,8 +87,6 @@ public class MyWorld extends World {
         ce.addCollidingMover(vijand);
     }
 
-        
-        
     @Override
     public void act() {
         ce.update();

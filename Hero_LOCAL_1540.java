@@ -111,10 +111,9 @@ public class Hero extends Mover {
     }
 
     public void handleInput() {
-        if (Greenfoot.isKeyDown("w") && (onGround() == true) || Greenfoot.isKeyDown("up") && (onGround() == true)){
-            velocityY = -10;
-        }
-        if (Greenfoot.isKeyDown("space") && (onGround() == true)){
+        if (Greenfoot.isKeyDown("w") && (onGround() == true)
+        || Greenfoot.isKeyDown("up") && (onGround() == true)
+        || Greenfoot.isKeyDown("space")&& (onGround() == true)){
             velocityY = -27;
         }
 
