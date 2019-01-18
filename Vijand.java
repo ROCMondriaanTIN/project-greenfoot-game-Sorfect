@@ -127,7 +127,7 @@ public class Vijand extends Mover {
         frame++;
         return;
     }
-   
+    
     public boolean isOnSolidGround()
     {
         boolean isOnGround = false;
