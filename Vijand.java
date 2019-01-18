@@ -75,7 +75,11 @@ public class Vijand extends Mover {
                 return;
             }
         }
-       
+        for (Actor hero : getIntersectingObjects(Hero.class)) {
+            if (hero != null) {
+                Greenfoot.setWorld(new Catch());
+            }
+        }
     }
         public void loop()
     {
